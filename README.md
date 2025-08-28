@@ -1,6 +1,6 @@
-  <div style="margin-top: 50px; margin-bottom: 50px;">
-  ## TorchTRT
-</div>
+
+## TorchTRT
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![TensorRT](https://img.shields.io/badge/TensorRT-10.10.0.31-green.svg)](https://developer.nvidia.com/tensorrt)
