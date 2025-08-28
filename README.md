@@ -24,10 +24,10 @@ This project serves as a practical demonstration of skills essential for ML/LLMO
 
 | Optimization Stage | Average Latency | Throughput (FPS) | Model Size | Key Enabler |
 | :--- | :--- | :--- | :--- | :--- |
-| **PyTorch (FP32)** | ~45 ms | ~22 FPS | 6.2 MB | Baseline |
-| **TensorRT (FP32)** | ~25 ms | ~40 FPS | 18.8 MB | Graph Optimization |
-| **TensorRT (FP16)** | **~14 ms** | **~71 FPS** | 9.4 MB | **TensorRT Quantization** |
-| **+ Triton Server** | ~16 ms | ~62 FPS | - | **Triton Inference Server** |
+| **PyTorch (FP32)** | ~45 ms | ~22 FPS | 18.8 MB | Baseline |
+| **TensorRT (FP32)** | ~25 ms | ~40 FPS | 9.4 MB | Graph Optimization |
+| **TensorRT (FP16)** | -  | - | -  | **TensorRT Quantization** |
+| **+ Triton Server** | -  | -  | - | **Triton Inference Server** |
 
 *Results measured on NVIDIA GeForce RTX 3050 Laptop GPU. [See full benchmark details](./results/benchmark_results.md).*
 
